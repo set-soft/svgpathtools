@@ -1,0 +1,6 @@
+svgpathtools for Debian
+
+The version is the one declared in the GitHub setup.py.
+The one in PyPi is slightly different.
+
+ -- Salvador E. Tropea <stropea@inti.gob.ar>  Tue, 28 Dec 2021 09:47:33 -0300
