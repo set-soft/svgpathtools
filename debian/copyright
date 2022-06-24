@@ -1,0 +1,168 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: svgpathtools
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .github/workflows/codacy.yml
+           .github/workflows/codeql-analysis.yml
+           .github/workflows/github-ci.yml
+           .github/workflows/publish-on-pypi-test.yml
+           .github/workflows/publish-on-pypi.yml
+           .gitignore
+           .pytest_cache/.gitignore
+           .pytest_cache/CACHEDIR.TAG
+           .pytest_cache/README.md
+           .pytest_cache/v/cache/nodeids
+           .pytest_cache/v/cache/stepwise
+           CONTRIBUTING.md
+           MANIFEST.in
+           README.ipynb
+           README.md
+           SECURITY.md
+           examples/compute-many-points-quickly-using-numpy-arrays.py
+           examples/determine-if-svg-path-is-contained-in-other-path-example.py
+           examples/distance-between-two-svg-paths-example.py
+           requirements.txt
+           setup.cfg
+           setup.py
+           svgpathtools/__init__.py
+           svgpathtools/__pycache__/__init__.cpython-39.pyc
+           svgpathtools/__pycache__/bezier.cpython-39.pyc
+           svgpathtools/__pycache__/document.cpython-39.pyc
+           svgpathtools/__pycache__/misctools.cpython-39.pyc
+           svgpathtools/__pycache__/parser.cpython-39.pyc
+           svgpathtools/__pycache__/path.cpython-39.pyc
+           svgpathtools/__pycache__/paths2svg.cpython-39.pyc
+           svgpathtools/__pycache__/polytools.cpython-39.pyc
+           svgpathtools/__pycache__/smoothing.cpython-39.pyc
+           svgpathtools/__pycache__/svg_io_sax.cpython-39.pyc
+           svgpathtools/__pycache__/svg_to_paths.cpython-39.pyc
+           svgpathtools/bezier.py
+           svgpathtools/document.py
+           svgpathtools/misctools.py
+           svgpathtools/parser.py
+           svgpathtools/path.py
+           svgpathtools/paths2svg.py
+           svgpathtools/polytools.py
+           svgpathtools/smoothing.py
+           svgpathtools/svg_io_sax.py
+           svgpathtools/svg_to_paths.py
+           test/__init__.py
+           test/__pycache__/__init__.cpython-39.pyc
+           test/__pycache__/test_bezier.cpython-39-pytest-6.0.2.pyc
+           test/__pycache__/test_generation.cpython-39-pytest-6.0.2.pyc
+           test/__pycache__/test_groups.cpython-39-pytest-6.0.2.pyc
+           test/__pycache__/test_parsing.cpython-39-pytest-6.0.2.pyc
+           test/__pycache__/test_path.cpython-39-pytest-6.0.2.pyc
+           test/__pycache__/test_polytools.cpython-39-pytest-6.0.2.pyc
+           test/__pycache__/test_sax_groups.cpython-39-pytest-6.0.2.pyc
+           test/__pycache__/test_svg2paths.cpython-39-pytest-6.0.2.pyc
+           test/test_bezier.py
+           test/test_generation.py
+           test/test_groups.py
+           test/test_parsing.py
+           test/test_path.py
+           test/test_polytools.py
+           test/test_sax_groups.py
+           test/test_svg2paths.py
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     LICENSE.txt
+           LICENSE2.txt
+Copyright: 2013-2014 Lennart Regebro
+           2015 Andrew Allan Port
+License:   Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         offset_curves.svg
+#         vectorframes.svg
+#         output2.svg
+#         test.svg
+#         decorated_ellipse.svg
+#         output_intersections.svg
+#         donate-button.svg
+#         output1.svg
+#         path.svg
+#         test/display_temp.svg
+#         test/rects.svg
+#         test/ellipse.svg
+#         test/transforms.svg
+#         test/groups.svg
+#         test/test.svg
+#         test/circle.svg
+#         test/polygons.svg
+#         examples/wasm-via-pyodide-example.html
+#         examples/zero-radius-arcs.svg
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE2.txt
+ The MIT License (MIT)
+ .
+ Copyright (c) 2013-2014 Lennart Regebro
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE.txt
+ The MIT License (MIT)
+ .
+ Copyright (c) 2015 Andrew Allan Port
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.

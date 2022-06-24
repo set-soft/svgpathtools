@@ -1,0 +1,17 @@
+Source: python3-svgpathtools
+Section: Python
+Priority: optional
+Maintainer: Salvador E. Tropea <stropea@inti.gob.ar>
+Build-Depends: debhelper-compat (= 12), dh-python, python3
+Standards-Version: 4.5.0
+Homepage: <https://github.com/mathandy/svgpathtools/>
+X-Python3-Version: >= 3.2
+
+Package: python3-svgpathtools
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: SVG path tools for Python
+ svgpathtools is a collection of tools for manipulating and analyzing SVG
+ Path objects and Bezier curves.
+

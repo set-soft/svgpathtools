@@ -1,0 +1,2 @@
+version=3
+https://github.com/set-soft/svgpathtools/tags .*/(\d[\d\.]*)\.(?:tar.gz|tar.bz2|tar.xz)
